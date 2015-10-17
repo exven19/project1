@@ -2,12 +2,12 @@
 // Project 1
 // Midterm
 
-float sunX=0;
-float sunY=50;
+  // Global Declarations
+  float sunX=0;
+  float sunY=50;
 
-float konX, konY; // monster location
-float venX, venY; // hero location
-
+  float konX, konY; // monster location
+  float venX, venY; // hero location
 
 
 void setup() {
@@ -28,8 +28,8 @@ void setup() {
 
 void draw() {
   // Next frame: sky, sun, hero, etc.
-
-  // blue sky 
+  
+    // blue sky 
   background( 100, 220, 250 ) ; 
 
   // grass 
@@ -58,7 +58,16 @@ void draw() {
   vertex(885, 375);
   vertex(885, 320);
   endShape();
-
+  
+  //credits
+  fill( 0, 0, 255 );
+  text( " PROJECT 1 ", width/5, height/8 );
+  
+  fill( 0 );              
+  textSize( 25 );
+  textAlign( BOTTOM, LEFT );
+  text(" MD NAYEEM U. BHUIYAN " , width/10, height*7/8 );
+  
   // Ragdoll ven
   venX = mouseX;
   venY = mouseY;
