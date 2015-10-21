@@ -3,7 +3,7 @@
 // Midterm
 
   // Global Declarations
-  float sunX=0;
+  float sunX=0; 
   float sunY=50;
 
   float konX, konY; // monster location
