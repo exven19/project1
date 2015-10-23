@@ -6,8 +6,11 @@
   float sunX=0; 
   float sunY=50;
 
-  float konX, konY; // monster location
-  float venX, venY; // hero location
+// monster location
+  float konX, konY; 
+  // hero location
+  float venX, venY; 
+  
 
 
 void setup() {
